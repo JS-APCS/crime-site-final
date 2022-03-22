@@ -1,5 +1,8 @@
 .grand-title {
   font-size: 50px;
+  background-color: grey;
+  width: 70%;
+  border-radius: 10px;
 }
 
 .stuff {
@@ -9,6 +12,7 @@
   margin-bottom: -2.1%;
   z-index: 100;
   color: white;
+  font-family: sans-serif;
 }
 
 body {
@@ -40,4 +44,41 @@ a {
 .images {
   display: flex;
   justify-content: space-evenly;
+}
+
+@media only screen and (max-width: 1024px) {
+  img {
+    width: 100px;
+  }
+  
+  .link:hover {
+  background-color: #777A7E;
+  color: #F2DA2C;
+  border: 2px solid;
+  font-size: 13px;
+}
+}
+
+.location-total {
+  background-color: grey;
+  width: 50%;
+  border-radius: 10px;
+}
+
+.rates {
+  background-color: grey;
+  width: 50%;
+  border-radius: 10px;
+}
+
+.team-total {
+  background-color: grey;
+  width: 80%;
+  border-radius: 10px;
+}
+
+.contact-total {
+  background-color: grey;
+  width: 50%;
+  border-radius: 10px;
 }
