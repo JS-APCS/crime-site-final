@@ -1,1 +1,98 @@
+body {
+  background-color: #1e1f1e;
+}
 
+.container {
+  background-color: #3d3e3d;
+  color: white;
+  display: flex;
+  
+}
+
+h1 {
+  font-family: sans-serif;
+  font-weight: 9px;
+  font-size: 40px;
+  clear: both;
+  display: block;
+}
+
+#reviews {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-bottom: 20px;
+}
+
+.review {
+  text-align: left;
+  background-color: #777a7e;
+  font-size: 20px;
+  font-family: sans-serif;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.holder {
+  text-align: right;
+  width: 40vw;
+  display: inline;
+  font-family: sans-serif;
+  font-size: 20px;
+}
+
+#dogs {
+  background-color: #f2da2c;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+#dog_info {
+  text-align: left;
+  background-color: #3d3e3d;
+  font-size: 20px;
+  font-family: sans-serif;
+  padding: 10px;
+  border-radius: 10px;
+  width: 80vw;
+}
+
+#client {
+  background-color: #1e1f1e;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+#client_info {
+  text-align: left;
+  background-color: #777a7e;
+  font-size: 20px;
+  font-family: sans-serif;
+  padding: 10px;
+  border-radius: 10px;
+  width: 80vw;
+}
+
+#back {
+  text-align: center;
+  background-color: #777a7e;
+  font-size: 30px;
+  font-family: sans-serif;
+  padding: 10px;
+  border-radius: 10px;
+  width: 10vw;
+  font-weight: 9px;
+  position: fixed;
+}
+
+a {
+  
+  color: white;
+  text-decoration: none;
+}
